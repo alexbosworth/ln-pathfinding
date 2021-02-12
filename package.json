@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Alex Bosworth",
+    "url": "https://twitter.com/alexbosworth"
+  },
+  "bugs": {
+    "url": "https://github.com/alexbosworth/ln-pathfinding/issues"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "5.0.0"
+  },
+  "description": "Pathfinding utilities for traversing the Lightning Network",
+  "devDependencies": {
+    "tap": "14.11.0"
+  },
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "lightning-network"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ln-pathfinding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/ln-pathfinding.git"
+  },
+  "scripts": {
+    "test": "tap test/routing/*.js"
+  },
+  "version": "1.0.0"
+}
