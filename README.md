@@ -1,6 +1,6 @@
 # Lightning Network Pathfinding
 
-[![npm version](https://badge.fury.io/js/ln-service.svg)](https://badge.fury.io/js/ln-pathfinding)
+[![npm version](https://badge.fury.io/js/ln-pathfinding.svg)](https://badge.fury.io/js/ln-pathfinding)
 
 ## Methods
 
