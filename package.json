@@ -7,7 +7,7 @@
     "url": "https://github.com/alexbosworth/ln-pathfinding/issues"
   },
   "dependencies": {
-    "@datastructures-js/priority-queue": "5.0.0"
+    "@datastructures-js/priority-queue": "5.0.1"
   },
   "description": "Pathfinding utilities for traversing the Lightning Network",
   "devDependencies": {
@@ -31,5 +31,5 @@
   "scripts": {
     "test": "tap test/routing/*.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
