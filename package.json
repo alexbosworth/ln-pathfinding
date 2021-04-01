@@ -11,7 +11,7 @@
   },
   "description": "Pathfinding utilities for traversing the Lightning Network",
   "devDependencies": {
-    "tap": "14.11.0"
+    "tap": "15.0.1"
   },
   "engines": {
     "node": ">=10.10.0"
@@ -29,7 +29,7 @@
     "url": "https://github.com/alexbosworth/ln-pathfinding.git"
   },
   "scripts": {
-    "test": "tap test/routing/*.js"
+    "test": "tap --branches=1 --functions=1 --lines=1 --statements=1 test/routing/*.js"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

@@ -69,10 +69,10 @@ const tests = [
 ];
 
 tests.forEach(({args, description, expected}) => {
-  return test(description, ({deepEqual, end}) => {
+  return test(description, ({end, strictSame}) => {
     const {paths} = calculatePaths(args);
 
-    deepEqual(paths, expected.paths, 'Hops are calculated');
+    strictSame(paths, expected.paths, 'Hops are calculated');
 
     return end();
   });
