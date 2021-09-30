@@ -56,7 +56,7 @@ const {calculateHops} = require('ln-pathfinding');
 const {getIdentity, getNetworkGraph} = require('ln-service');
 const {channels} = await getNetworkGraph({lnd});
 const end = 'destinationPublicKeyHexString';
-const start = (await getIdentity({lnd})).public_key;_
+const start = (await getIdentity({lnd})).public_key;
 const {hops} = calculateHops({channels, end, start, mtokens: '1000'});
 ```
 
